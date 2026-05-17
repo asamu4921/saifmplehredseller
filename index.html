@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reseller RedDoorz | Promo Kamar Hemat</title>
+  <meta name="description" content="Landing page reseller RedDoorz yang mobile-friendly, modern, dan fokus pada CTA WhatsApp untuk pemesanan kamar lebih murah." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#3b0a0a',
+            brand: '#e50914',
+            brand2: '#ff5a5f',
+            soft: '#fff1f1'
+          },
+          boxShadow: {
+            glow: '0 20px 60px rgba(229, 9, 20, 0.28)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      background:
+        radial-gradient(circle at top, rgba(229, 9, 20, 0.16), transparent 30%),
+        radial-gradient(circle at 20% 20%, rgba(255, 90, 95, 0.10), transparent 22%),
+        linear-gradient(180deg, #fff5f5 0%, #ffffff 52%, #ffecec 100%);
+    }
+    .glass {
+      backdrop-filter: blur(14px);
+      background: rgba(255, 255, 255, 0.76);
+    }
+    .noise {
+      background-image:
+        linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    .floaty {
+      animation: floaty 6s ease-in-out infinite;
+    }
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    .pulse-ring {
+      box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.55);
+      animation: pulse-ring 1.8s infinite;
+    }
+    @keyframes pulse-ring {
+      0% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.55); }
+      70% { box-shadow: 0 0 0 18px rgba(249, 115, 22, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0); }
+    }
+  </style>
+</head>
+<body class="text-slate-900">
+  <div class="min-h-screen relative overflow-hidden">
+    <div class="absolute inset-0 noise pointer-events-none opacity-30"></div>
+
+    <header class="sticky top-0 z-40 border-b border-white/20 bg-[#e50914]/95 text-white shadow-lg shadow-red-950/10 backdrop-blur-xl">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-[0.35em] text-white/80">SaifMpleh RedSeller</p>
+          <h1 class="text-sm font-bold text-white sm:text-base">Lebih Hemat, Lebih Nyaman</h1>
+        </div>
+        <a href="https://wa.me/6285136860221?text=Halo%20saya%20mau%20tanya%20ketersediaan%20kamar" class="hidden rounded-full bg-white px-4 py-2 text-sm font-semibold text-[#e50914] shadow-lg shadow-black/10 transition hover:-translate-y-0.5 hover:bg-red-50 sm:inline-flex" aria-label="Chat on WhatsApp">Pesan via WhatsApp</a>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4 pb-28 pt-8 sm:px-6 lg:px-8 lg:pb-16 lg:pt-12">
+      <section class="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+        <div class="relative">
+          <div class="inline-flex items-center gap-2 rounded-full border border-red-200 bg-white px-4 py-2 text-xs font-semibold text-[#e50914] shadow-sm">
+            <span class="h-2 w-2 rounded-full bg-[#e50914]"></span>
+            Promo reseller RedDoorz aktif sekarang
+          </div>
+          <h2 class="mt-5 max-w-xl text-4xl font-black leading-tight tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
+            Booking kamar <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#e50914] via-[#ff5a5f] to-[#b30000]">lebih murah</span> lewat WhatsApp.
+          </h2>
+          <p class="mt-5 max-w-xl text-base leading-7 text-slate-600 sm:text-lg">
+            Dapatkan pilihan kamar RedDoorz yang simpel, praktis, dan cocok buat jalan, kerja, rombongan, atau staycation singkat. Klik tombol pesan di bawah, chat langsung, dan cek ketersediaan kamar sekarang.
+          </p>
+
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="https://wa.me/6285136860221?text=Halo%20saya%20mau%20tanya%20ketersediaan%20kamar" class="inline-flex items-center justify-center gap-3 rounded-2xl bg-[#e50914] px-6 py-4 text-base font-bold text-white shadow-glow transition hover:-translate-y-0.5 hover:bg-[#c80f17]" aria-label="Chat on WhatsApp">
+              <span class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">
+                <svg viewBox="0 0 24 24" class="h-4 w-4 fill-current" aria-hidden="true"><path d="M20.52 3.48A11.74 11.74 0 0 0 12.04 0C5.5 0 .19 5.3.19 11.83c0 2.08.55 4.1 1.6 5.89L0 24l6.45-1.69a11.83 11.83 0 0 0 5.6 1.42h.01c6.53 0 11.83-5.3 11.83-11.83 0-3.17-1.24-6.14-3.37-8.42ZM12.06 21.5h-.01a9.7 9.7 0 0 1-4.96-1.36l-.36-.21-3.83 1 1.02-3.73-.24-.39a9.7 9.7 0 0 1-1.49-5.17C2.19 6.38 6.68 1.9 12.05 1.9c2.6 0 5.05 1.01 6.88 2.84a9.66 9.66 0 0 1 2.84 6.88c0 5.37-4.5 9.88-9.71 9.88Zm5.66-7.53c-.31-.16-1.84-.91-2.12-1.01-.29-.11-.5-.16-.71.16-.21.31-.81 1.01-.99 1.22-.18.21-.36.23-.67.08-.31-.16-1.31-.48-2.49-1.53-.92-.82-1.54-1.84-1.72-2.15-.18-.31-.02-.48.14-.64.14-.14.31-.36.47-.53.16-.18.21-.31.31-.52.1-.21.05-.39-.03-.53-.08-.16-.71-1.7-.98-2.33-.26-.62-.52-.54-.71-.55h-.61c-.21 0-.53.08-.81.39-.28.31-1.06 1.03-1.06 2.51 0 1.48 1.09 2.91 1.24 3.12.16.21 2.13 3.26 5.17 4.57.72.31 1.28.5 1.71.64.72.23 1.38.2 1.9.12.58-.09 1.84-.75 2.1-1.48.26-.72.26-1.34.18-1.48-.08-.13-.29-.21-.6-.36Z"/></svg>
+              </span>
+              Lebih murah, pesan sekarang
+            </a>
+            <a href="#paket" class="inline-flex items-center justify-center rounded-2xl border border-slate-200 bg-white px-6 py-4 text-base font-semibold text-slate-800 transition hover:border-slate-300 hover:bg-slate-50">Lihat alasan pilih kami</a>
+          </div>
+
+          <div class="mt-8 grid max-w-xl grid-cols-3 gap-3 sm:gap-4">
+            <div class="rounded-3xl border border-white/80 bg-white/80 p-4 shadow-sm">
+              <p class="text-2xl font-black text-[#e50914]">28%</p>
+              <p class="mt-1 text-xs font-medium uppercase tracking-widest text-slate-500">Diskon hingga</p>
+            </div>
+            <div class="rounded-3xl border border-white/80 bg-white/80 p-4 shadow-sm">
+              <p class="text-2xl font-black text-[#e50914]">24/7</p>
+              <p class="mt-1 text-xs font-medium uppercase tracking-widest text-slate-500">Layanan cepat</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="absolute -right-3 top-8 h-24 w-24 rounded-full bg-red-300/35 blur-3xl"></div>
+          <div class="absolute -left-3 bottom-10 h-28 w-28 rounded-full bg-rose-300/25 blur-3xl"></div>
+
+          <div class="glass relative overflow-hidden rounded-[2rem] border border-red-100 p-4 shadow-2xl shadow-red-900/10 sm:p-6">
+            <div class="absolute inset-0 bg-gradient-to-br from-white via-white/70 to-red-50/80"></div>
+            <div class="relative">
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <p class="text-xs font-bold uppercase tracking-[0.3em] text-[#e50914]">Hot Deal</p>
+                  <h3 class="mt-2 text-2xl font-black leading-tight text-slate-950 sm:text-3xl">Diskon spesial hingga 28%</h3>
+                </div>
+              </div>
+
+
+              <div class="mt-5 grid gap-3">
+                <div class="rounded-2xl border border-red-100 bg-white/90 p-4 shadow-sm">
+                  <p class="text-sm font-semibold text-slate-500">Kenapa Pakai RedSeller ?</p>
+                  <p class="mt-1 text-base font-bold text-slate-900">Harga Lebih Terjangkau & Promo Menarik Tiap Hari</p>
+                </div>
+                <div class="rounded-2xl border border-slate-200 bg-white/90 p-4 shadow-sm">
+                  <p class="text-sm font-semibold text-slate-500">Highlight</p>
+                  <div class="mt-2 flex flex-wrap gap-2">
+                    <span class="rounded-full bg-red-50 px-3 py-1 text-xs font-semibold text-[#b30000]">Harga Terjangkau</span>
+                    <span class="rounded-full bg-rose-50 px-3 py-1 text-xs font-semibold text-[#e50914]">Cocok Untuk Rombongan</span>
+                    <span class="rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700">Respon Cepat</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="paket" class="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <article class="rounded-[1.75rem] border border-white/70 bg-white/80 p-5 shadow-sm">
+          <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-red-100 text-xl font-black text-[#e50914]">01</div>
+          <h3 class="mt-4 text-xl font-bold">Harga lebih hemat</h3>
+          <p class="mt-2 leading-7 text-slate-600">Dapatkan kamar RedDoorz dengan harga yang lebih terjangkau untuk liburan, kerja, rombongan atau staycation singkat.</p>
+        </article>
+        <article class="rounded-[1.75rem] border border-white/70 bg-white/80 p-5 shadow-sm">
+          <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-rose-100 text-xl font-black text-[#e50914]">02</div>
+          <h3 class="mt-4 text-xl font-bold">Chat langsung via WhatsApp</h3>
+          <p class="mt-2 leading-7 text-slate-600">Pengunjung tinggal klik tombol pesan sekarang untuk cek ketersediaan kamar tanpa proses yang ribet.
+          </p>
+        </article>
+        <article class="rounded-[1.75rem] border border-white/70 bg-white/80 p-5 shadow-sm sm:col-span-2 lg:col-span-1">
+          <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-xl font-black text-white">03</div>
+          <h3 class="mt-4 text-xl font-bold">Dapatkan Promo Menarik Setiap Harinya</h3>
+          <p class="mt-2 leading-7 text-slate-600">Berbagai macam promo menarik khusus untuk kamu yang setia.</p>
+        </article>
+      </section>
+
+      <section class="mt-16 rounded-[2rem] bg-slate-950 px-5 py-8 text-white shadow-2xl sm:px-8">
+        <div class="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
+          <div>
+            <p class="text-xs font-bold uppercase tracking-[0.35em] text-red-300">Siap booking?</p>
+            <h3 class="mt-3 text-3xl font-black leading-tight sm:text-4xl">Lebih murah pesan sekarang lewat RedSeller Resmi</h3>
+            <p class="mt-3 max-w-2xl text-white/70 leading-7">Cek kamar lebih cepat, promo lebih jelas, dan langsung chat WhatsApp untuk booking tanpa ribet.</p>
+          </div>
+          <div class="flex flex-col gap-3 sm:min-w-72">
+            <a href="https://wa.me/6285136860221?text=Halo%20saya%20mau%20tanya%20ketersediaan%20kamar" class="inline-flex items-center justify-center rounded-2xl bg-[#e50914] px-6 py-4 text-base font-bold text-white shadow-lg shadow-red-500/20 transition hover:-translate-y-0.5 hover:bg-[#c80f17]" aria-label="Chat on WhatsApp">Pesan sekarang</a>
+            <p class="text-center text-xs text-white/50">Arahkan ke WhatsApp untuk cek ketersediaan kamar</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-16 grid gap-6 lg:grid-cols-[1fr_1fr]">
+        <div class="rounded-[2rem] border border-white/80 bg-white/85 p-6 shadow-sm sm:p-8">
+          <p class="text-xs font-bold uppercase tracking-[0.35em] text-[#e50914]">Testimoni</p>
+          <h3 class="mt-3 text-3xl font-black text-slate-950">Yang sudah booking bilang apa?</h3>
+          <div class="mt-6 grid gap-4">
+            <article class="rounded-[1.5rem] bg-slate-950 p-5 text-white shadow-lg shadow-slate-950/10">
+              <div class="flex items-center gap-3">
+                <img src="./a5fadcb6-5e49-411b-a2ec-8f3269789381.jpg" alt="Foto testimoni Haryono" class="h-12 w-12 rounded-full object-cover ring-2 ring-white/20" />
+                <div>
+                  <p class="font-bold">Haryono</p>
+                  <p class="text-xs uppercase tracking-[0.2em] text-white/50">Pelanggan</p>
+                </div>
+              </div>
+              <p class="text-sm leading-7 text-white/80">"Booking jadi lebih cepat, tinggal chat langsung dan kamar cocok buat kebutuhan kerja."</p>
+            </article>
+            <article class="rounded-[1.5rem] bg-red-50 p-5 shadow-sm">
+              <div class="flex items-center gap-3">
+                <img src="./a97bffed-ec5e-4cfc-b95b-cbb363cbc602.jpg" alt="Foto testimoni Tiara" class="h-12 w-12 rounded-full object-cover ring-2 ring-[#e50914]/15" />
+                <div>
+                  <p class="font-bold text-slate-950">Tiara</p>
+                  <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Pelanggan</p>
+                </div>
+              </div>
+              <p class="text-sm leading-7 text-slate-700">"Promonya jelas, harganya lebih hemat, dan respon admin cepat banget."</p>
+            </article>
+            <article class="rounded-[1.5rem] bg-slate-100 p-5 shadow-sm">
+              <div class="flex items-center gap-3">
+                <img src="./fcf1f774-1002-4c32-8731-bae10ece6a08.jpg" alt="Foto testimoni Yayan" class="h-12 w-12 rounded-full object-cover ring-2 ring-slate-900/10" />
+                <div>
+                  <p class="font-bold text-slate-950">Yayan</p>
+                  <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Pelanggan</p>
+                </div>
+              </div>
+              <p class="text-sm leading-7 text-slate-700">"Paling enak karena tinggal klik WhatsApp, nggak perlu cari-cari lagi."</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="rounded-[2rem] border border-white/80 bg-white/85 p-6 shadow-sm sm:p-8">
+          <p class="text-xs font-bold uppercase tracking-[0.35em] text-[#e50914]">FAQ</p>
+          <h3 class="mt-3 text-3xl font-black text-slate-950">Pertanyaan yang sering muncul</h3>
+          <div class="mt-6 space-y-3">
+            <details class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-950">
+                Bagaimana cara pesan kamar?
+                <span class="text-[#e50914] transition group-open:rotate-45">+</span>
+              </summary>
+              <p class="mt-3 leading-7 text-slate-600">Klik tombol WhatsApp, kirim pesan, lalu cek ketersediaan kamar dan detail booking langsung dari admin.</p>
+            </details>
+            <details class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-950">
+                Apakah ada promo diskon?
+                <span class="text-[#e50914] transition group-open:rotate-45">+</span>
+              </summary>
+              <p class="mt-3 leading-7 text-slate-600">Ada promo tertentu yang bisa sampai 28% tergantung periode dan ketersediaan kamar.</p>
+            </details>
+            <details class="group rounded-2xl border border-slate-200 bg-white p-4 open:shadow-sm">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-slate-950">
+                Bisa untuk rombongan?
+                <span class="text-[#e50914] transition group-open:rotate-45">+</span>
+              </summary>
+              <p class="mt-3 leading-7 text-slate-600">Bisa. Kamu tinggal chat dulu untuk cek tipe kamar yang paling pas dan jumlah yang tersedia.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="fixed bottom-4 left-4 right-4 z-50 flex items-end justify-between gap-3 sm:bottom-6 sm:left-6 sm:right-6 lg:hidden">
+      <a href="https://wa.me/6285136860221?text=Halo%20saya%20mau%20tanya%20ketersediaan%20kamar" class="flex-1 rounded-2xl bg-slate-950 px-4 py-4 text-center text-sm font-bold text-white shadow-2xl shadow-slate-950/25" aria-label="Chat on WhatsApp">
+        Lebih murah, pesan sekarang
+      </a>
+      <button id="openPromo" class="pulse-ring rounded-2xl bg-white px-4 py-4 text-sm font-bold text-[#e50914] shadow-2xl shadow-red-300/30">Diskon 28%</button>
+    </div>
+
+    <a href="https://wa.me/6285136860221?text=Halo%20saya%20mau%20tanya%20ketersediaan%20kamar" class="fixed bottom-5 right-5 z-50 hidden h-16 w-16 items-center justify-center overflow-hidden rounded-full border border-white/80 bg-white shadow-2xl shadow-slate-950/15 transition hover:scale-105 lg:flex" aria-label="Chat on WhatsApp">
+      <img alt="Chat on WhatsApp" src="https://4r6hg0o2eb.ucarecd.net/79b11d09-c03e-4ccf-81f9-f9740dd848f3/exampleimage.jpg" class="h-full w-full object-cover" />
+    </a>
+  </div>
+
+  <div id="promoModal" class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-950/65 px-4 backdrop-blur-sm">
+    <div class="relative w-full max-w-sm overflow-hidden rounded-[2rem] bg-white p-3 shadow-2xl sm:max-w-md">
+      <button id="closePromo" class="absolute right-4 top-4 z-20 rounded-full bg-white/90 px-3 py-2 text-sm font-bold text-slate-700 shadow-lg transition hover:bg-white" aria-label="Tutup popup">Tutup</button>
+      <div class="overflow-hidden rounded-[1.5rem] bg-[#e50914] text-white shadow-2xl shadow-red-950/20">
+        <div class="relative px-5 pb-5 pt-6 sm:px-6 sm:pt-7">
+          <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.16),transparent_30%),radial-gradient(circle_at_80%_20%,rgba(255,255,255,0.10),transparent_18%),radial-gradient(circle_at_50%_90%,rgba(255,255,255,0.08),transparent_24%)]"></div>
+          <div class="relative">
+            <p class="text-sm font-extrabold uppercase tracking-[0.35em] text-white/95">Promo Gede</p>
+            <p class="mt-2 text-lg font-bold uppercase tracking-[0.18em] text-white/95 sm:text-xl">Diskon hingga</p>
+            <div class="mt-2 flex items-end gap-1">
+              <span class="text-[9rem] font-black leading-none tracking-[-0.08em] sm:text-[10rem]">28</span>
+              <span class="pb-6 text-5xl font-black leading-none sm:pb-7 sm:text-6xl">%</span>
+            </div>
+            <p class="-mt-2 text-right text-lg font-extrabold uppercase tracking-[0.28em] text-white/95 sm:text-xl">Booking sekarang</p>
+          </div>
+        </div>
+        <div class="border-t border-white/15 bg-white/10 px-5 py-4 sm:px-6">
+          <div class="flex items-center gap-3">
+            <div class="flex-1">
+              <p class="text-xs font-bold uppercase tracking-[0.28em] text-white/70">Klik untuk cek harga</p>
+              <p class="mt-1 text-sm font-semibold text-white">Lebih murah pesan sekarang via WhatsApp.</p>
+            </div>
+            <a href="https://wa.me/6285136860221?text=Halo%20saya%20mau%20tanya%20ketersediaan%20kamar" class="inline-flex shrink-0 items-center justify-center rounded-2xl bg-white px-4 py-3 text-sm font-black text-[#e50914] shadow-lg shadow-black/15 transition hover:scale-[1.02]" aria-label="Chat on WhatsApp">Pesan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const promoModal = document.getElementById('promoModal');
+    const closePromo = document.getElementById('closePromo');
+    const openPromo = document.getElementById('openPromo');
+
+    const showPromo = () => {
+      promoModal.classList.remove('hidden');
+      promoModal.classList.add('flex');
+    };
+
+    const hidePromo = () => {
+      promoModal.classList.add('hidden');
+      promoModal.classList.remove('flex');
+    };
+
+    setTimeout(showPromo, 900);
+
+    closePromo.addEventListener('click', hidePromo);
+    openPromo.addEventListener('click', showPromo);
+    promoModal.addEventListener('click', (event) => {
+      if (event.target === promoModal) hidePromo();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') hidePromo();
+    });
+  </script>
+</body>
+</html>
